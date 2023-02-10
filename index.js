@@ -14,7 +14,7 @@ database();
 
 app.use(
   cors({
-    origin: process.env.REACT_URL,
+    origin: "https://main--superlative-lollipop-4cae50.netlify.app",
     credentials: true,
   })
 );
