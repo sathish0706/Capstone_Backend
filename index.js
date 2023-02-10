@@ -14,7 +14,7 @@ database();
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: process.env.REACT_URL,
     credentials: true,
   })
 );
