@@ -14,7 +14,7 @@ database();
 
 app.use(
   cors({
-    origin: "https://main--superlative-lollipop-4cae50.netlify.app",
+    origin: "https://main--polite-bombolone-162787.netlify.app",
     credentials: true,
   })
 );
