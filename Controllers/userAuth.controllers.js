@@ -110,7 +110,7 @@ const forgotPassword = async (req, res) => {
 
     await tokenPayload.save();
 
-    const link = `https://main--polite-bombolone-162787.netlify.app/reset-password?token=${newToken}&id=${user._id}`;
+    const link = `https://polite-bombolone-162787.netlify.app/reset-password?token=${newToken}&id=${user._id}`;
 
     await sendEmail(user.email, "Password Reset Link", {
       name: user.name,
